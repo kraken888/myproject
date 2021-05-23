@@ -1,6 +1,6 @@
 def myproject(a,b):
 	try:
-		float(a)
+		int(a)
 		float(b)
 	except:
 		print("Something went wrong")
