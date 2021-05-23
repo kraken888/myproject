@@ -5,3 +5,4 @@ def myproject(a,b):
 	except:
 		print("Something went wrong")
 	return a,b
+	print("Commit in GitHub Desktop")
