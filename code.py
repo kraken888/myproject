@@ -1,8 +1,7 @@
-def myproject(a,b,c):
+def myproject(a,b):
 	try:
-		float(a)
-		float(b)
-		float(c)
+		a=float(a)
+		b=float(b)
 	except:
 		print("Something went wrong")
-	return a,b,c
+	return a,b
