@@ -3,5 +3,5 @@ def myproject(a,b):
 		float(a)
 		float(b)
 	except:
-		exit()
+		print("Something went wrong")
 	return a,b
